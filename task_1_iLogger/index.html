@@ -2,17 +2,22 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Title</title>
     <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700;900&display=swap" rel="stylesheet">
 </head>
 <body>
 <div class="wrapper">
-    <h1 class="title">ILogger</h1>
-    <form class="form">
+    <h1 class="title">iLogger</h1>
+    <form class="form" id="logger">
         <label for="text" class="label">Write something to log it</label>
-        <input id="text" class="text-field" type="text" required/>
+        <input id="text" name="text" class="text-field" type="text" required/>
         <button class="submit" type="submit">log it</button>
     </form>
 </div>
+<div class="console" id="terminal">
+</div>
+<script src="main.js"></script>
 </body>
 </html>

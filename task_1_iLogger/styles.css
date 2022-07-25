@@ -7,37 +7,76 @@
 .wrapper {
     margin: 120px auto 0;
     padding: 0 20px;
-    width: 320px;
-    font-family: Arial;
+    max-width: 360px;
+    font-family: 'Roboto', sans-serif;
 }
 
 .title {
-    margin-bottom: 20px;
+    margin-bottom: 40px;
     text-align: center;
+    font-size: 48px;
+    font-weight: 900;
+    color: #1c1c1c;
 }
 
 .form {
     width: 100%;
 }
 
+.label {
+    color: #828B94;
+    font-size: 13px;
+    line-height: 30px;
+}
+
 .text-field {
-    margin-bottom: 20px;
     display: block;
+    margin-bottom: 30px;
+    padding: 0 10px;
     width: 100%;
-    height: 40px;
-    border-radius: 5px;
-    border-width: 1px;
-    border-color: grey;
+    height: 46px;
+    border-radius: 8px;
+    border: 1px solid #DADEE2;
+    outline: none;
+    font-size: 15px;
+}
+
+.text-field:focus-visible {
+    border: 1px solid #84B5FF;
+    box-shadow: 0 0 4px rgb(10 101 237 / 40%);
+    outline: none;
 }
 
 .submit {
     display: block;
     width: 100%;
-    height: 40px;
-    background-color: blue;
-    color: aliceblue;
-    border-radius: 5px;
-    border-width: 1px;
+    height: 46px;
+    background-color: #0A65ED;
+    border-radius: 8px;
+    border: none;
+    font-size: 18px;
     font-weight: bold;
-    opacity: .8;
+    color: #ffffff;
+    cursor:pointer;
+}
+
+.submit:hover {
+   background-color: #2471f1;
+}
+
+.console {
+    position: absolute;
+    bottom: 50px;
+    left: 100px;
+    max-width: 680px;
+    font-family: Monospaced, monospace;
+    font-size: 15px;
+    color: #a8a8a8;
+    z-index: -2;
+}
+
+.terminal-log {
+    font-family: Monospaced, monospace;
+    font-size: 15px;
+    color: #4f4f4f;
 }
