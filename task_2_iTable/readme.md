@@ -24,4 +24,4 @@ JS: when user was pressed on submit button, in the table was added new row with 
     ![image](https://user-images.githubusercontent.com/47348743/181105245-5fe26da0-c021-4d52-acbb-6ef34a61a27d.png)
 
     when user was pressed on delete button, in the table was removed selected row
-    ![image](https://user-images.githubusercontent.com/47348743/181105303-a285e00f-b9d7-438a-935c-146fab525377.png)
+   ![image](https://user-images.githubusercontent.com/47348743/181105303-a285e00f-b9d7-438a-935c-146fab525377.png)
