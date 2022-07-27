@@ -18,7 +18,7 @@ table
   
   ![image](https://user-images.githubusercontent.com/47348743/181103621-e949d309-b203-4288-b12c-2ffa2edbdea8.png)
 
-CSS: change styles, but use light hues. Elements must be look simple, with soft contrast
+CSS: change styles, praimaryColor #FFDB4DFF, secondaryColor , fontColor #2b2b2b, borderColor #C4C4C4FF,
 
 JS: when user was pressed on submit button, in the table was added new row with info in form fields
     ![image](https://user-images.githubusercontent.com/47348743/181105245-5fe26da0-c021-4d52-acbb-6ef34a61a27d.png)
