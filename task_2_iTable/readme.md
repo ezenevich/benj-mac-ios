@@ -16,12 +16,10 @@ table
   
   example 
   
-  ![image](https://user-images.githubusercontent.com/47348743/181103621-e949d309-b203-4288-b12c-2ffa2edbdea8.png)
+  ![image](https://user-images.githubusercontent.com/47348743/181247768-5b33bf09-4eff-4700-8147-c7d5ba32f598.png)
 
-CSS: change styles, praimaryColor #FFDB4DFF, secondaryColor , fontColor #2b2b2b, borderColor #C4C4C4FF,
+
+CSS: change styles, praimaryColor #FFDB4D, warningColor #FF0000, fontColor #999999, borderColor #C4C4C4, font: League Spartan
 
 JS: when user was pressed on submit button, in the table was added new row with info in form fields
-    ![image](https://user-images.githubusercontent.com/47348743/181105245-5fe26da0-c021-4d52-acbb-6ef34a61a27d.png)
-    
     when user was pressed on delete button, in the table was removed selected row
-   ![image](https://user-images.githubusercontent.com/47348743/181105303-a285e00f-b9d7-438a-935c-146fab525377.png)
