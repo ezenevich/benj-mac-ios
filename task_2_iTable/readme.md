@@ -4,15 +4,15 @@ form
 
   input name
   
-  input age
+  input surname
   
-  radio gender
+  input age
   
   btn submit
   
 table
 
-  Name Age Gender Delete
+  Name Surname Age Delete
   
   example 
   
@@ -21,5 +21,5 @@ table
 
 CSS: change styles, praimaryColor #FFDB4D, warningColor #FF0000, fontColor #999999, borderColor #C4C4C4, font: League Spartan
 
-JS: when user was pressed on submit button, in the table was added new row with info in form fields
+JS: when user was pressed on submit button, in the table was added new row with info in form fields.
     when user was pressed on delete button, in the table was removed selected row
