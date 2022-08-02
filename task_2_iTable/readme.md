@@ -23,3 +23,7 @@ CSS: change styles, praimaryColor #FFDB4D, warningColor #FF0000, fontColor #9999
 
 JS: when user was pressed on submit button, in the table was added new row with info in form fields.
     when user was pressed on delete button, in the table was removed selected row
+
+My work:
+
+![img.png](img.png)
