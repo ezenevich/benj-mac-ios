@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=League+Spartan:wght@400;700;900&display=swap" rel="stylesheet">
+</head>
+<body>
+<h1 class="title">iTable</h1>
+<div class="wrapper">
+    <form class="form" id="person-init">
+        <input id="name" name="name" class="field" type="text" placeholder="Name" required/>
+        <input id="surname" name="surname" class="field" type="text" placeholder="Surname" required/>
+        <input id="age" name="age" class="field" type="text" placeholder="Age" required/>
+        <button class="submit" type="submit">Add</button>
+    </form>
+    <table id="person-table" class="table">
+        <thead id="thead" class="thead">
+        <tr>
+            <th>Name</th>
+            <th>Surname</th>
+            <th>Age</th>
+            <th>&nbsp;</th>
+        </tr>
+        </thead>
+        <tbody id="tbody" class="tbody">
+        <tr class="trow">
+            <td>Alex</td>
+            <td>Smirnov</td>
+            <td>23</td>
+            <td>
+                <button id="click" class="button">delete</button>
+            </td>
+        </tr>
+        </tbody>
+    </table>
+</div>
+
+<script src="main.js"></script>
+</body>
+</html>
