@@ -25,5 +25,4 @@ JS: when user was pressed on submit button, in the table was added new row with 
     when user was pressed on delete button, in the table was removed selected row
 
 My work:
-
 ![img.png](img.png)
